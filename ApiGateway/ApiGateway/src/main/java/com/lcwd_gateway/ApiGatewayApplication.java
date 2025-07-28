@@ -6,7 +6,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient; // ✅ Impor
 
 @SpringBootApplication
 
-//@EnableEurekaClient // ✅ Enable Eureka client for service registration
+@EnableEurekaClient // ✅ Enable Eureka client for service registration
 public class ApiGatewayApplication {
 
 	public static void main(String[] args) {
